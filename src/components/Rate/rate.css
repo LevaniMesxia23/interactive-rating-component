@@ -70,9 +70,9 @@
   width: 341px;
   height: 45px;
   flex-shrink: 0;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #FC7614;
+  color: white;
 
-  color: rgba(252, 118, 20, 1);
   font-family: Overpass;
   font-size: 15px;
   font-style: normal;
@@ -85,6 +85,6 @@
   cursor: pointer;
 }
 .submit:hover{
-  background-color: #FC7614;
-  color: white;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(252, 118, 20, 1);
 }
