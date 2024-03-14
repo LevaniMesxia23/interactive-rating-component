@@ -5,9 +5,10 @@ import Result from './components/Result/Result'
 
 function App() {
   const [submit, setSubmit] = useState(false)
+  const [rate, setRate] = useState(null)
   return (
     <>
-     {submit ? <Result /> : <Rate setSubmit={setSubmit}/>}
+     {submit ? <Result rate={rate}/> : <Rate setSubmit={setSubmit} rate={rate} setRate={setRate}/>}
     </>
   )
 }

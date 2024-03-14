@@ -2,9 +2,8 @@ import { useState } from "react"
 import "./rate.css"
 import Star from "/images/icon-star.svg"
 
-export default function Rate({ setSubmit }){
+export default function Rate({ setSubmit, rate, setRate }){
   let buttons = [1,2,3,4,5]
-  const [rate, setRate] = useState(null)
   console.log(rate)
   return (
     <div className="rate-container">

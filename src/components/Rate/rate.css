@@ -62,7 +62,10 @@
   letter-spacing: 0.2px;
   cursor: pointer;
 }
-
+.number-button:hover{
+  background-color: #7C8798;
+  color: #fff;
+}
 .submit{
   width: 341px;
   height: 45px;
@@ -80,4 +83,8 @@
   margin-bottom: -10px;
   border: none;
   cursor: pointer;
+}
+.submit:hover{
+  background-color: #FC7614;
+  color: white;
 }
